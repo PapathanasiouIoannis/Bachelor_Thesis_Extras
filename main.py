@@ -103,7 +103,7 @@ def main():
         print("\n--- Phase 1: Generating Physics Data (Parallel) ---")
 
         # PRODUCTION SCALING: Increased to 10,000 to maximize ML accuracy.
-        # (Change to 2000 if you want a faster test run).
+        # (Change to 1000-2000 if you want a faster test run).
         TOTAL_CURVES = 1000
         CURVES_PER_BATCH = 20
         N_JOBS = -1
@@ -199,3 +199,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
